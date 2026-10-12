@@ -1,8 +1,7 @@
 name: ponyc release
 
 on:
-  schedule:
-    - cron: '42 3 * * *'
+  workflow_dispatch:
 
 jobs:
   vs-ponyc-latest:
